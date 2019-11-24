@@ -1,0 +1,293 @@
+/*------------------------------GERAL-------------------------------*/
+.universal_link{color:#757575;text-decoration:none;}
+#lista_footer ol a:hover{color:#3C708C;text-decoration:none;}
+.fab:hover{color:#3C708C;text-decoration:none;}
+body,html{ padding:0px;   margin: 0px;   width:100%;   height:100%;}
+header{ background-color: #EDEDED; width:100%; height:65px; padding:0px; margin:0px; position:fixed; z-index:2;}
+
+#centro1{ background-color: #EDEDED; width:100%; height:65px;}
+
+#logo_td{ width:150px; height:65px; padding:0px 30px; }
+#logo{ width:125px; height:40px; }
+#table_header{width:100%;height:100%;}
+
+#footer_1{ background-color: #002A47; width:100%; height:15%; font-family: 'Roboto Condensed', sans-serif; }
+#lista_footer,#lista_footer ol{font-family: 'Roboto Condensed', sans-serif;height:100%;}
+#lista_footer ol a{color:#EDEDED;text-decoration:none;}
+
+
+
+#lista_footer  ol{vertical-align:middle;display:inline;font-family: 'Montserrat', sans-serif;}
+footer{ background-color: #002036; width:100%; height:12%; font-family: 'Montserrat', sans-serif; }
+.text_footer_1{	color:#F0F0F0; margin-bottom:5px;}
+.fa-twitter-square{padding-right:0px;}
+#footer_table{width:100%; height:100%; text-align:center;}
+#td_agif{padding-left:5%; width:100%;}
+#td_icon{ float:right; width:100%; }
+#td_face{ width:100%; vertical-align:center; }
+
+
+/*-----INDEX----*/
+.texto_centro2{font-family: 'Roboto Condensed', sans-serif; color:#EDEDED; font-size:30px;}
+.texto_carousel{position:absolute; color:#EDEDED;font-family: 'Montserrat', sans-serif; width:100%; height:100%;vertical-align:middle;}
+.texto_carousel tr{width:100%; height:100%;}
+.texto_carousel td{width:100%; height:100%;}
+#texto1_carousel{font-size:7vw;font-family: 'Roboto Condensed', sans-serif;letter-spacing: -3px;}
+#texto2_carousel{font-size:1.3vw;font-family: 'Montserrat', sans-serif;padding:10px 10% 0px 10%;letter-spacing:0px;}
+#texto3_carousel{font-size:2.5vw;padding:0px 10%;}
+#texto4_carousel{font-size:2.5vw;padding:0px 10%;}
+#texto5_carousel{font-size:2.5vw;padding:0px 10%;}
+#traço_agif{width:60%;height:1px;background-color:#FFFFFF;}
+
+.slideshow-container {width: 100%;height:100%;position: relative;margin: 0px;}
+.mySlides {display: none;height:95%;}
+.prev, .next {cursor: pointer;position: absolute;top: 50%;width: auto;margin-top: -22px;padding: 16px;color: white;font-weight: bold;font-size: 18px;transition: 0.6s ease;border-radius: 0 3px 3px 0;}
+.next {right: 0;border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+.text {color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 8px;width: 100%;text-align: center;}
+.numbertext {color: #f2f2f2;font-size: 12px;padding: 8px 12px; position: absolute;top: 0;}
+.dot {cursor: pointer;height: 15px;width: 15px;margin: 0 2px;background-color: #FFFFFF;border-radius: 50%;display: inline-block;transition: background-color 0.6s ease;}
+.active, .dot:hover {background-color: #D1D1D1;}
+.fade {-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s;}
+@-webkit-keyframes fade {from {opacity: .4} to {opacity: 1}}
+@keyframes fade {from {opacity: .4} to {opacity: 1}}
+
+
+
+/*-----ORCAMENTO----*/
+#centro1_orcamento{width:100%;height:65px;}
+#centro_orcamento{ background-color: #EDEDED; width:100%; height:100%; min-height:1200px;}
+#submit_orcamento{width:200px; border-radius:7px; background:#002036;color:#FFFFFF;margin-top:40px;padding:10px; border:0px solid; cursor:pointer; height:40px;resize: none;font-family: 'Montserrat', sans-serif;}
+#textarea_orcamento{resize: none;height:300px;}
+#orcamento_form{width:600px;padding-top:30px;}
+#title_orcamento{background-image:url(img/title_orcamento.png); width:100%;height:300px;background-repeat:no-repeat;background-size: cover;background-position: center;font-family: 'Montserrat', sans-serif; color:#FFFFFF; text-align:center;vertical-align:middle;font-size:4vw;}
+
+
+
+.field__input{background-color: transparent;border-radius: 0;border: none;-webkit-appearance: none;-moz-appearance: none;font-family: 'Montserrat', sans-serif;font-size: 1em;}
+
+.a-field .field__input:focus{outline: none;}
+
+.field__input:focus::-webkit-input-placeholder{color: var(--uiFieldPlaceholderColor);}
+
+.field__input:focus::-moz-placeholder{color: var(--uiFieldPlaceholderColor);opacity: 1;}
+
+/*
+=====
+LEVEL 2. CORE STYLES
+=====
+*/
+
+.field{width:400px;color:#7a7a7a;display: inline-block;}
+
+.field__input{color:#7a7a7a;display: block;box-sizing: border-box;width: 100%;}
+
+/*
+=====
+LEVEL 3. PRESENTATION STYLES
+=====
+*/
+
+/* a-field */
+
+.a-field{
+  --uiFieldHeight: var(--fieldHeight, 100%);  
+  --uiFieldBorderWidth: var(--fieldBorderWidth, 2px);
+  --uiFieldBorderColor: var(--fieldBorderColor);
+
+  --uiFieldFontSize: var(--fieldFontSize, 1em);
+  --uiFieldHintFontSize: var(--fieldHintFontSize, 1em);
+
+  --uiFieldPaddingRight: var(--fieldPaddingRight, 15px);
+  --uiFieldPaddingBottom: var(--fieldPaddingBottom, 15px);
+  --uiFieldPaddingLeft: var(--fieldPaddingLeft, 15px);   
+
+  position: relative;box-sizing: border-box;font-size: var(--uiFieldFontSize);padding-top: 1em;}
+
+.a-field .field__input{height: var(--uiFieldHeight);padding-left:10px;width:400px;border-bottom: var(--uiFieldBorderWidth) solid var(--uiFieldBorderColor);  }
+.a-field .field__input::-webkit-input-placeholder{opacity: 0;transition: opacity .2s ease-out;}
+.a-field .field__input::-moz-placeholder{opacity: 0;transition: opacity .2s ease-out;}
+.a-field .field__input:not(:placeholder-shown) ~ .field__label-wrap .field__label{opacity: 0;bottom: var(--uiFieldPaddingBottom);}
+.a-field .field__input:focus::-webkit-input-placeholder{opacity: 1;transition-delay: .2s;}
+.a-field .field__input:focus::-moz-placeholder{opacity: 1;transition-delay: .2s;}
+.a-field .field__label-wrap{box-sizing: border-box;width: 100%;height: var(--uiFieldHeight);	pointer-events: none;cursor: text;position: absolute;bottom: 0;left: 0;}
+.a-field .field__label{font-family: 'Montserrat', sans-serif;position: absolute;left: var(--uiFieldPaddingLeft);bottom: calc(50% - .5em);line-height: 1;font-size: var(--uiFieldHintFontSize);pointer-events: none;transition: bottom .2s cubic-bezier(0.9,-0.15, 0.1, 1.15), opacity .2s ease-out;will-change: bottom, opacity;}
+.a-field .field__input:focus ~ .field__label-wrap .field__label{opacity: 1;bottom: var(--uiFieldHeight);color:#003357;}
+
+
+/* a-field_a2 */
+
+.a-field_a2 .field__label-wrap:after{content: "";box-sizing: border-box;width: 0;height: var(--uiFieldBorderWidth);background-color: var(--fieldBorderColorActive);position: absolute;bottom: 0;left: 0;will-change: width;transition: width .285s ease-out;}
+.a-field_a2 .field__input:focus ~ .field__label-wrap:after{width: 100%;}
+
+/* a-field_a3 */
+
+.a-field_a3{padding-top: 1.5em;}
+.a-field_a3 .field__label-wrap:after{content: "";box-sizing: border-box;width: 100%;height: 0;opacity: 0;border: var(--uiFieldBorderWidth) solid var(--fieldBorderColorActive);position: absolute;bottom: 0;left: 0;will-change: opacity, height;transition: height .2s ease-out, opacity .2s ease-out;}
+
+.a-field_a3 .field__input:focus ~ .field__label-wrap:after{height: 100%;opacity: 1;}
+.a-field_a3 .field__input:focus ~ .field__label-wrap .field__label{bottom: calc(var(--uiFieldHeight) + .5em);}
+
+/*
+LEVEL 4. SETTINGS
+*/
+
+.field{
+  --fieldBorderColor: #9C9C9C;
+  --fieldBorderColorActive: #003357;
+}
+
+
+
+
+/*-----AUTOMACAO----*/
+#centro_automacao{background-color: #F2F2F2; width:100%; height:100%; }
+#centro1_automacao{background-color: #F2F2F2; width:100%; height:60px;}
+#texto_automacao{font-family: 'Montserrat', sans-serif; color:#7a7a7a;padding:6% 10% 10% 10%;font-size:1.5vw;text-align:justify;}
+#title_automacao{background-image:url(img/title_automacao.png); width:100%;height:500px;background-repeat:no-repeat;background-size: cover;background-position: center;font-family: 'Montserrat', sans-serif; color:#FFFFFF; text-align:center;vertical-align:middle;font-size:2vw;}
+
+/*-----SOBRE----*/
+#title_pag_sobre{background-image:url(img/title_sobre.png); width:100%;height:500px;background-repeat:no-repeat;background-size: cover;background-position: center;font-family: 'Montserrat', sans-serif; color:#FFFFFF; text-align:center;vertical-align:middle;font-size:2vw;}
+
+
+
+
+/*-------MOBILE-------*/
+@media screen and (min-width: 320px){
+#centro2{ background-color: #EDEDED; width:100%; height:450px;margin:0px;vertical-align:middle;}
+#div_img_centro_2{background-image:url(img/calculadora.jpg);width:100%;height:100px;background-size:100% 600px;background-repeat:none;}
+
+
+.table_header_menu{display:none;}
+.navbar_menu tr{width:100%}
+
+#menu_td{display:none;}
+header{box-shadow: 5px 5px 5px rgba(0,0,0,0);}
+#navbar{ z-index:1; box-shadow: 5px 5px 5px rgba(0,0,0,0.5); width:100%; background-color: #0C3E70; position: fixed; transition: top 0.3s; top:65px; padding:6px 0px; text-align:center;}
+#navbar a{ font-size:0.7em; padding:4px 2%; color:#EDEDED; text-decoration:none; font-family: 'Roboto Condensed', sans-serif; text-align:center; }
+#navbar a:hover{border-radius:3px; background-color:#0B3763;}
+#table_descricao_index{font-size:26px; }
+#imagem{height:420px;}
+
+#td_agif{ width:50%;}
+#td_icon{ width:80%; }
+#td_face{ width:37%; }
+
+#centro1_automacao{background-color: #F2F2F2; width:100%; height:45px;}
+#texto_automacao{font-size:4vw;}
+#title_automacao{width:100%;height:300px;}
+#title_pag_sobre{width:100%;height:300px;}
+.fab{ vertical-align:middle;margin-right:11px; color:#EDEDED; font-size:2.4vw; }
+.fa-twitter-square{padding-right:30px;}
+#icons_td{width:30%; float:right; vertical-align:middle;height:100%;padding-top:13px;text-align:right;}
+
+#texto_index_1{font-family: 'Montserrat', sans-serif; color:#7a7a7a;padding:7% 10%;font-size:2.4vw;text-align:justify;}
+#texto_index_2{font-family: 'Montserrat', sans-serif; color:#7a7a7a;padding:4% 10%;font-size:2.4vw;text-align:justify;}
+
+#lista_footer ol{font-size:1.5vw;padding-left:6px;}
+}
+
+/*-------LANDSCAPES-------*/
+@media screen and (min-width: 580px){
+#centro2{ background-color: #EDEDED; width:100%; height:600px;margin:0px;vertical-align:middle;}
+#div_img_centro_2{background-image:url(img/calculadora.jpg);width:100%;height:230px;background-size:100% 900px;background-repeat:none;}
+#texto_index_1{font-family: 'Montserrat', sans-serif; color:#7a7a7a;padding:7% 10%;font-size:2vw;text-align:justify;}
+#texto_index_2{font-family: 'Montserrat', sans-serif; color:#7a7a7a;padding:4% 10%;font-size:2vw;text-align:justify;}
+
+
+#navbar a{ font-size:0.9em;}
+.table_header_menu{display:inline;}
+#menu_td{display:none;}
+#table_descricao_index{font-size:35px; }
+.app{width:60px; height:90px; background-size: 60px 90px;}
+#td_icon{ width:40%; }
+#td_face{ width:30%; }
+
+#texto_automacao{font-size:3vw;}
+}
+
+
+/*-------TABLETS-------*/
+@media screen and (min-width: 833px){
+
+header{box-shadow: 5px 5px 5px rgba(0,0,0,0.1);}
+#centro2{ background-color: #EDEDED; width:100%; height:880px;margin:0px;vertical-align:middle;}
+#div_img_centro_2{background-image:url(img/calculadora.jpg);width:100%;height:430px;background-size:100% 840px;background-repeat:none;}
+
+
+#menu_td{display:initial;}
+#menu{float:right;padding-top:18px;padding-right:2%;font-family: 'Roboto Condensed', sans-serif;}
+#menu ul {padding:0px;margin:0px;list-style:none;}
+#menu ul li { display: inline;}
+#menu ul li a {height:38px; padding: 2px 10px;display: inline-block;}
+#menu ul li a {color: #000000;text-decoration: none;border-bottom:3px solid #EDEDED;opacity: 0.5;transition: opacity .6s;}
+#menu ul li a:hover {background-color:#EDEDED;color: #003e69;border-bottom:3px solid #003e69;opacity: 1;transition: opacity .50s ease-in-out;}
+#navbar{display:none;}
+#table_header tr{width:100%;}
+#table_descricao_index{font-size:35px; }
+.app{width:65px; height:97px; background-size: 65px;}
+#td_agif{ width:50%;}
+#td_icon{ width:23%; }
+#td_face{ width:24%; }
+
+#centro1_automacao{background-color: #F2F2F2; width:100%; height:30px;}
+#texto_automacao{font-size:3.2vw;}
+#title_automacao{width:100%;height:500px;}
+#title_pag_sobre{width:100%;height:500px;}
+
+.fa-twitter-square{padding-right:100px;}
+.fab{ vertical-align:middle;margin-right:11px; color:#EDEDED; font-size:2.4vw; }
+#icons_td{width:30%; float:right; vertical-align:middle;height:100%;padding-top:17px;text-align:right;}
+
+#texto_index_1{font-family: 'Montserrat', sans-serif; color:#7a7a7a;padding:7% 10%;font-size:1.8vw;text-align:justify;}
+#texto_index_2{font-family: 'Montserrat', sans-serif; color:#7a7a7a;padding:4% 10%;font-size:1.9vw;text-align:justify;}
+
+#lista_footer ol{font-size:1.6vw;padding-left:12px;}
+}
+
+
+
+/*-------PCS-------*/
+@media screen and (min-width: 1024px){
+	
+#table_descricao_index{font-size:38px; }
+#navbar{display:none;}
+#table_header tr{width:100%;}
+#td_icon{ width:13%; }
+#td_face{ width:18%; }
+#title_automacao{width:100%;height:500px;}
+#texto_automacao{font-size:2.5vw;}
+
+#icons_td{width:30%; float:right; vertical-align:middle;height:100%;padding-top:10px;text-align:right;}
+.fab{ vertical-align:middle;margin-right:11px; color:#EDEDED; font-size:3vw; }
+#centro2{ background-color: #EDEDED; width:100%; height:950px;margin:0px;vertical-align:middle;}
+#div_img_centro_2{background-image:url(img/calculadora.jpg);width:100%;height:470px;background-size:100% 900px;background-repeat:none;}
+
+}
+    
+/*PCS 1280+*/
+@media screen and (min-width: 1280px){
+	
+#table_descricao_index{font-size:42px;}
+#navbar{display:none;}
+#table_header tr{width:100%;}
+.app{width:80px; height:120px; background-size: 80px 120px;}
+#td_icon{ width:10%; }
+#td_face{ width:16%; }
+#texto_automacao{font-size:1.5vw;}
+
+#centro2{ background-color: #EDEDED; width:100%; height:1100px;margin:0px;vertical-align:middle;}
+#div_img_centro_2{background-image:url(img/calculadora.jpg);width:100%;height:470px;background-size:100% 900px;background-repeat:none;}
+#lista_footer ol{font-size:1.2vw;padding-left:12px;}
+}
+
+
+/*PCS 1440+*/
+@media screen and (min-width: 1440px){
+	
+#table_descricao_index{font-size:46px; }
+#navbar{display:none;}
+#table_header tr{width:100%;}
+.app{width:85px; height:128px; background-size: 85px 128px;}
+
+}
